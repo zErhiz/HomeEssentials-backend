@@ -1,65 +1,92 @@
-export let users = [{
-    email: "alejandro@mh.com.ar",
-    password: "$2a$10$XZBDuOYHcHSzZNzf2ws7Quvu3YmKgSagWRUG1eGlBLSdxJunpN1LC",
+export const users = [
+{
+    email: 'user1@example.com',
+    password: 'hola1234',
+    role: 0,
+    is_verified: true,
+    verify_code: 'acvnewi92emodsqisj129mxskal2121wsaz',
+    is_online: false,
+    photo: 'https://www.pngkit.com/png/full/115-1150342_user-avatar-icon-iconos-de-mujeres-a-color.png'
+},
+{
+    email: 'user2@example.com',
+    password: 'hola1234',
     role: 1,
     is_verified: true,
-    verify_code: "acvnewi92emodsqisj129mxskal2121wsaz",
+    verify_code: 'acvnewi92emodsqisj129mxskal2121wsaz',
     is_online: false,
-    photo: "https://i.postimg.cc/fyJsspq8/image.png"
-},{
-    email: "lucas@mh.com.ar",
-    password: "$2a$10$XZBDuOYHcHSzZNzf2ws7Quvu3YmKgSagWRUG1eGlBLSdxJunpN1LC",
-    role: 1,
+    photo: 'https://cdn-icons-png.flaticon.com/512/1193/1193281.png'
+},
+{
+    email: 'user3@example.com',
+    password: 'hola1234',
+    role: 2,
     is_verified: true,
-    verify_code: "acvnewi92emodsqisj129mxskal2121wsaz",
+    verify_code: 'acvnewi92emodsqisj129mxskal2121wsaz',
     is_online: false,
-    photo: "https://i.postimg.cc/fyJsspq8/image.png"
-},{
-    email: "jose@mh.com.ar",
-    password: "$2a$10$XZBDuOYHcHSzZNzf2ws7Quvu3YmKgSagWRUG1eGlBLSdxJunpN1LC",
-    role: 1,
-    is_verified: true,
-    verify_code: "acvnewi92emodsqisj129mxskal2121wsaz",
-    is_online: false,
-    photo: "https://i.postimg.cc/GhdNvZxV/5831a17a290077c646a48c4db78a81bb-icono-de-perfil-de-usuario-azul.png"
-},{
-    email: "eric@mh.com.ar",
-    password: "$2a$10$XZBDuOYHcHSzZNzf2ws7Quvu3YmKgSagWRUG1eGlBLSdxJunpN1LC",
-    role: 1,
-    is_verified: true,
-    verify_code: "acvnewi92emodsqisj129mxskal2121wsaz",
-    is_online: false,
-    photo: "https://i.postimg.cc/GhdNvZxV/5831a17a290077c646a48c4db78a81bb-icono-de-perfil-de-usuario-azul.png"
-},{
-    email: "igna@mh.com.ar",
-    password: "$2a$10$XZBDuOYHcHSzZNzf2ws7Quvu3YmKgSagWRUG1eGlBLSdxJunpN1LC",
-    role: 1,
-    is_verified: true,
-    verify_code: "acvnewi92emodsqisj129mxskal2121wsaz",
-    is_online: false,
-    photo: "https://i.postimg.cc/7Yj2FytQ/43cc80b4c098e43a988c535eaba42c53-icono-de-usuario-de-persona.png"
-},{
-    email: "silvina@mh.com.ar",
-    password: "$2a$10$XZBDuOYHcHSzZNzf2ws7Quvu3YmKgSagWRUG1eGlBLSdxJunpN1LC",
+    photo: 'https://cdn-icons-png.flaticon.com/512/2726/2726000.png'
+},
+{
+    email: 'user4@example.com',
+    password: 'hola1234',
     role: 3,
     is_verified: true,
-    verify_code: "acvnewi92emodsqisj129mxskal2121wsaz",
+    verify_code: 'acvnewi92emodsqisj129mxskal2121wsaz',
     is_online: false,
-    photo: "https://i.postimg.cc/7Yj2FytQ/43cc80b4c098e43a988c535eaba42c53-icono-de-usuario-de-persona.png"
-},{
-    email: "peace@team.com.ar",
-    password: "$2a$10$XZBDuOYHcHSzZNzf2ws7Quvu3YmKgSagWRUG1eGlBLSdxJunpN1LC",
+    photo: 'https://cdn-icons-png.flaticon.com/512/1870/1870038.png'
+},
+{
+    email: 'user5@example.com',
+    password: 'hola1234',
+    role: 0,
+    is_verified: true,
+    verify_code: 'acvnewi92emodsqisj129mxskal2121wsaz',
+    is_online: false,
+    photo: 'https://cdn-icons-png.flaticon.com/256/3135/3135715.png'
+},
+{
+    email: 'user6@example.com',
+    password: 'hola1234',
+    role: 1,
+    is_verified: true,
+    verify_code: 'acvnewi92emodsqisj129mxskal2121wsaz',
+    is_online: false,
+    photo: 'user6.jpg'
+},
+{
+    email: 'user7@example.com',
+    password: 'hola1234',
     role: 2,
     is_verified: true,
-    verify_code: "acvnewi92emodsqisj129mxskal2121wsaz",
+    verify_code: 'acvnewi92emodsqisj129mxskal2121wsaz',
     is_online: false,
-    photo: "https://i.postimg.cc/2jZbntSQ/image.png"
-},{
-    email: "digital@team.com.ar",
-    password: "$2a$10$XZBDuOYHcHSzZNzf2ws7Quvu3YmKgSagWRUG1eGlBLSdxJunpN1LC",
-    role: 2,
+    photo: 'user7.jpg'
+},
+{
+    email: 'user8@example.com',
+    password: 'hola1234',
+    role: 3,
     is_verified: true,
-    verify_code: "acvnewi92emodsqisj129mxskal2121wsaz",
+    verify_code: 'acvnewi92emodsqisj129mxskal2121wsaz',
     is_online: false,
-    photo: "https://i.postimg.cc/2jZbntSQ/image.png"
-}]
+    photo: 'https://cdn-icons-png.flaticon.com/512/320/320333.png'
+},
+{
+    email: 'user9@example.com',
+    password: 'hola1234',
+    role: 0,
+    is_verified: true,
+    verify_code: 'acvnewi92emodsqisj129mxskal2121wsaz',
+    is_online: false,
+    photo: 'https://cdn-icons-png.flaticon.com/256/320/320336.png'
+},
+{
+    email: 'user10@example.com',
+    password: 'hola1234',
+    role: 1,
+    is_verified: true,
+    verify_code: 'acvnewi92emodsqisj129mxskal2121wsaz',
+    is_online: false,
+    photo: 'https://cdn-icons-png.flaticon.com/512/7736/7736415.png'
+}
+]
