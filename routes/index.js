@@ -1,5 +1,6 @@
 import express from 'express';
 import authRouter from './auth.js'
+import curriculumsRouter from './curriculums.js'
 import categoryRouter from './categories.js'
 import manufacturerRouter from './manufacturer.js'
 import productRouter from './product.js'
@@ -22,4 +23,5 @@ router.use('/categories', categoryRouter)
 router.use('/manufacturers', manufacturerRouter)
 router.use('/products', productRouter)
 router.use('/users', userRouter)
+router.use('/curriculums', curriculumsRouter)
 export default router;
