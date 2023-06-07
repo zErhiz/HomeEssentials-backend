@@ -14,73 +14,73 @@ export let manufacturers = [
     active: true
     },
     {
-    name: 'DEF Technology',
-    logo: 'https://static.vecteezy.com/system/resources/previews/009/117/086/non_2x/def-logo-def-letter-def-letter-logo-design-initials-def-logo-linked-with-circle-and-uppercase-monogram-logo-def-typography-for-technology-business-and-real-estate-brand-vector.jpg',
-    website: 'https://www.deftechnology.com',
+    name: 'Techno Rize',
+    logo: 'https://www.triberize.net/images/common/img_og.jpg',
+    website: 'https://www.Techno.com',
     description: 'Innovative technology developer for various industries.',
     active: true
     },
     {
-    name: 'GHI Electronics',
+    name: 'GHI Edge',
     logo: 'https://i.ytimg.com/vi/ojJmKfdOpAI/maxresdefault.jpg',
-    website: 'https://www.ghielectronics.com',
+    website: 'https://www.Edge.com',
     description: 'Manufacturer of cutting-edge electronic components.',
     active: true
     },
     {
-    name: 'ABC Appliances',
-    logo: 'https://us1-photo.nextdoor.com/business_logo/53/e1/53e111a62560ee167af8f20199be8cb4.jpg',
-    website: 'https://www.abcappliances.com',
+    name: 'TechHome',
+    logo: 'https://cdn.dribbble.com/users/7237996/screenshots/16547892/techhome_logo__concept__t_negative_space-01_4x.jpg',
+    website: 'https://www.TechHome.com',
     description: 'Home appliance supplier.',
     active: true
     },
     {
-    name: 'DEF Appliances',
-    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoqGL1JONxqcJGh52xro_OXvBy9W-smLYvPQ&usqp=CAU',
-    website: 'https://www.defappliances.com',
+    name: 'PowerTech Appliances',
+    logo: 'https://energy-utilities.com/Powertech%20Logo1-comp303952.jpg',
+    website: 'https://www.PowerTech.com',
     description: 'Company dedicated to the manufacture of quality household appliances.',
     active: true
     },
     {
-    name: 'GHI Kitchenware',
-    logo: 'https://static.vecteezy.com/system/resources/previews/009/128/348/non_2x/ghi-logo-ghi-letter-ghi-letter-logo-design-initials-ghi-logo-linked-with-circle-and-uppercase-monogram-logo-ghi-typography-for-technology-business-and-real-estate-brand-vector.jpg',
-    website: 'https://www.ghikitchenware.com',
+    name: 'KitchenGurus',
+    logo: 'https://yt3.googleusercontent.com/VgLf9fkg-NiBmEbj_BjmQjWJc8mz67lf0FfClyH7Xagkb-5PlrHkKiAKuuk0PVG1ayEHnePIXg=s900-c-k-c0x00ffffff-no-rj',
+    website: 'https://www.KitchenGurus.com',
     description: 'Manufacturer of kitchen utensils and accessories.',
     active: true
     },
     {
-    name: "ABC Furniture",
-    logo: "https://t4.ftcdn.net/jpg/04/44/00/33/360_F_444003388_F1jJd2nx15agGqhXG47LFqXCagtvQRob.jpg",
+    name: "UrbanLiving",
+    logo: "https://img.freepik.com/premium-vector/real-estate-logo-urban-living-badge_322067-26.jpg?w=2000",
     description: "A leading manufacturer of high-quality furniture for all your home decor needs",
     active: true,
-    website: "https://www.abcfurniture.com"
+    website: "https://www.UrbanLiving.com"
     },
     {
-    name: "DEF Furniture",
-    logo: "https://1000logos.net/wp-content/uploads/2019/03/TESDA.jpg",
+    name: "DesignMakers",
+    logo: "https://cdn3.f-cdn.com/contestentries/1218281/27783055/5a4cb22bdc606_thumb900.jpg",
     description: "A renowned manufacturer specializing in modern and stylish furniture designs",
     active: true,
-    website: "https://www.deffurniture.com"
+    website: "https://www.DesignMakers.com"
     },
     {
-    name: "DEF Electronics",
-    logo: "https://www.shutterstock.com/image-vector/electronic-logo-260nw-737605000.jpg",
+    name: "DigitalEvo",
+    logo: "https://images-platform.99static.com/mbNZuFeWgA4lGgqr9C9JBBZ5pBM=/180x180:1620x1620/500x500/top/smart/99designs-contests-attachments/121/121190/attachment_121190269",
     description: "A trusted manufacturer of cutting-edge electronic devices and gadgets",
     active: true,
-    website: "https://www.defelectronics.com"
+    website: "https://www.DigitalEvo.com"
     },
     {
-    name: "GHI Appliances",
-    logo: "https://static.vecteezy.com/system/resources/previews/019/880/487/non_2x/ghi-abstract-technology-circle-setting-logo-design-on-white-background-ghi-creative-initials-letter-logo-vector.jpg",
+    name: "Tech Wizards",
+    logo: "https://res.cloudinary.com/teepublic/image/private/s--jx5tWPoC--/t_Resized%20Artwork/c_fit,g_north_west,h_954,w_954/co_000000,e_outline:35/co_000000,e_outline:inner_fill:35/co_ffffff,e_outline:35/co_ffffff,e_outline:inner_fill:35/co_bbbbbb,e_outline:3:1000/c_mpad,g_center,h_1260,w_1260/b_rgb:eeeeee/c_limit,f_auto,h_630,q_90,w_630/v1583398486/production/designs/8324067_0.jpg",
     description: "A reliable manufacturer of efficient and innovative household appliances",
     active: true,
-    website: "https://www.ghiappliances.com"
+    website: "https://www.Wizards.com"
     },
     {
-    name: "GHI Furniture",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/La-furniture-store-logo-large.jpg/627px-La-furniture-store-logo-large.jpg?20180829152809",
+    name: "StyleCraft",
+    logo: "https://images.junipercdn.com/128/application-assets/juniper-web/logo/StyleCraft_Logo_Black-500.jpg",
     description: "A top-notch furniture manufacturer known for its exceptional craftsmanship and durability",
     active: true,
-    website: "https://www.ghifurniture.com"
+    website: "https://www.StyleCraft.com"
     }
 ]

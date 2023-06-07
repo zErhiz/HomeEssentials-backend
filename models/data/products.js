@@ -85,7 +85,7 @@ export let products = [
     description: "Wi-Fi enabled smart thermostat for remote temperature control and energy savings.",
     price: 149.99,
     category_id: "Home Automation",
-    manufacturer_id: "DEF Technology",
+    manufacturer_id: "Techno Rize",
     stock_Available: 5,
     photo: "https://ezewarm.com/wp-content/uploads/2020/12/Pro-Wifi-Thermostat-with-App-Control.jpg"
   },
@@ -94,7 +94,7 @@ export let products = [
     description: "Wireless smart lighting system with dimming and color-changing capabilities.",
     price: 199.99,
     category_id: "Home Automation",
-    manufacturer_id: "DEF Technology",
+    manufacturer_id: "Techno Rize",
     stock_Available: 8,
     photo: "https://cdn.shopify.com/s/files/1/2129/3845/articles/smart-lighting-generic-photo.jpg?v=1670797761"
   },
@@ -103,7 +103,7 @@ export let products = [
     description: "Voice-controlled smart speaker with built-in virtual assistant and music streaming capabilities.",
     price: 99.99,
     category_id: "Home Automation",
-    manufacturer_id: "GHI Electronics",
+    manufacturer_id: "GHI Edge",
     stock_Available: 12,
     photo: "https://cf.shopee.sg/file/sg-11134201-22100-hd4p4wl639iv7c"
   },
@@ -112,7 +112,7 @@ export let products = [
     description: "Smart door lock with keyless entry, smartphone control, and security features.",
     price: 179.99,
     category_id: "Home Automation",
-    manufacturer_id: "DEF Technology",
+    manufacturer_id: "Techno Rize",
     stock_Available: 6,
     photo: "https://cairocart.com/pub/media/catalog/product/cache/f65e4f3f0d55f7c692e033a9434b3a7f/f/a/face.jpg"
   },
@@ -122,7 +122,7 @@ export let products = [
     description: "High-performance induction cooktop with multiple cooking zones and precise temperature control.",
     price: 119996.0,
     category_id: "Kitchen Appliances",
-    manufacturer_id: "ABC Appliances",
+    manufacturer_id: "TechHome",
     stock_Available: 10,
     photo: "https://www.ikea.com/ca/en/images/products/tvaersaeker-range-with-induction-cooktop-stainless-steel__1050232_pe844797_s5.jpg?f=s"
   },
@@ -131,7 +131,7 @@ export let products = [
     description: "Versatile convection oven with multiple cooking modes and adjustable temperature settings.",
     price: 99996.0,
     category_id: "Kitchen Appliances",
-    manufacturer_id: "DEF Appliances",
+    manufacturer_id: "PowerTech Appliances",
     stock_Available: 5,
     photo: "https://cdn.shopify.com/s/files/1/0363/4099/0087/products/3_2048x2048.jpg?v=1618200168"
   },
@@ -140,7 +140,7 @@ export let products = [
     description: "High-quality knife set with a variety of blades for all your culinary needs.",
     price: 35996.0,
     category_id: "Kitchen Tools",
-    manufacturer_id: "GHI Kitchenware",
+    manufacturer_id: "KitchenGurus",
     stock_Available: 15,
     photo: "https://m.media-amazon.com/images/I/718iZVcnVEL.jpg"
   },
@@ -149,7 +149,7 @@ export let products = [
     description: "Powerful blender for making smoothies, soups, and sauces with ease.",
     price: 31996.0,
     category_id: "Kitchen Appliances",
-    manufacturer_id: "ABC Appliances",
+    manufacturer_id: "TechHome",
     stock_Available: 8,
     photo: "https://helios-i.mashable.com/imagery/articles/01HZLAzVkYGRMhpTXRUrceo/hero-image.fill.size_1200x900.v1668536742.jpg"
   }
@@ -159,7 +159,7 @@ export let products = [
     description: "Automatic coffee maker with programmable brewing options and built-in grinder.",
     price: 51996.0,
     category_id: "Kitchen Appliances",
-    manufacturer_id: "DEF Appliances",
+    manufacturer_id: "PowerTech Appliances",
     stock_Available: 12,
     photo: "https://images-cdn.ubuy.com.sa/634ed841b5dfc729566bc10b-mixpresso-12-cup-drip-coffee-maker.jpg"
   },
@@ -169,7 +169,7 @@ export let products = [
     description: "Spacious French door refrigerator with multiple compartments and adjustable shelves.",
     price: 999.99,
     category_id: "Refrigerators",
-    manufacturer_id: "ABC Appliances",
+    manufacturer_id: "TechHome",
     stock_Available: 10,
     photo: "https://s.turbifycdn.com/aah/usappliance/erfg2393as-electrolux-36-counter-depth-french-door-refrigerator-stainless-steel-38.jpg"
   },
@@ -178,7 +178,7 @@ export let products = [
     description: "Convenient side-by-side refrigerator with separate compartments for fresh and frozen foods.",
     price: 899.99,
     category_id: "Refrigerators",
-    manufacturer_id: "DEF Appliances",
+    manufacturer_id: "PowerTech Appliances",
     stock_Available: 5,
     photo: "https://5.imimg.com/data5/SH/JU/MY-2341017/samsung-side-by-side-refrigerator-500x500.jpg"
   },
@@ -187,7 +187,7 @@ export let products = [
     description: "Compact mini fridge with adjustable temperature control and small freezer compartment.",
     price: 149.99,
     category_id: "Refrigerators",
-    manufacturer_id: "GHI Appliances",
+    manufacturer_id: "Tech Wizards",
     stock_Available: 15,
     photo: "https://m.media-amazon.com/images/I/81GOA8TH+XL.jpg"
   },
@@ -196,7 +196,7 @@ export let products = [
     description: "Traditional top freezer refrigerator with spacious storage and energy-efficient design.",
     price: 699.99,
     category_id: "Refrigerators",
-    manufacturer_id: "ABC Appliances",
+    manufacturer_id: "TechHome",
     stock_Available: 8,
     photo: "https://www.biancos.com/files/image/attachment/6379/1MRT118FFFE1.jpg"
   },
@@ -205,7 +205,7 @@ export let products = [
     description: "Refrigerator with a bottom freezer drawer for easy access to frozen foods and adjustable shelves.",
     price: 799.99,
     category_id: "Refrigerators",
-    manufacturer_id: "DEF Appliances",
+    manufacturer_id: "PowerTech Appliances",
     stock_Available: 12,
     photo: "https://tvguru.co.ke/wp-content/uploads/2021/11/Samsung-323-Litres-RB-33T307058-Bespoke-Bottom-Mount-Freezer-Refrigerator-open.webp"
   }
@@ -216,7 +216,7 @@ export let products = [
     description: "Compact countertop microwave with multiple power levels and preset cooking options.",
     price: 79.99,
     category_id: "Microwaves",
-    manufacturer_id: "ABC Appliances",
+    manufacturer_id: "TechHome",
     stock_Available: 10,
     photo: "https://s42814.pcdn.co/wp-content/uploads/2022/01/best_small_microwave_panel-scaled.jpg.optimal.jpg"
   },
@@ -225,7 +225,7 @@ export let products = [
     description: "Space-saving over-the-range microwave with built-in exhaust fan and sensor cooking.",
     price: 299.99,
     category_id: "Microwaves",
-    manufacturer_id: "DEF Appliances",
+    manufacturer_id: "PowerTech Appliances",
     stock_Available: 5,
     photo: "https://www.ikea.com/us/en/images/products/medelniva-over-the-range-microwave-stainless-steel__0895627_pe782379_s5.jpg?f=s"
   },
@@ -234,7 +234,7 @@ export let products = [
     description: "Microwave with integrated grill for versatile cooking and browning capabilities.",
     price: 149.99,
     category_id: "Microwaves",
-    manufacturer_id: "GHI Appliances",
+    manufacturer_id: "Tech Wizards",
     stock_Available: 15,
     photo: "https://cdn.shopify.com/s/files/1/2155/6875/collections/Untitled-6_ff93d201-642a-4358-a233-29a172fa8b24_1200x1200.jpg?v=1657094072"
   },
@@ -243,7 +243,7 @@ export let products = [
     description: "Sleek built-in microwave drawer with touch controls and automatic opening/closing.",
     price: 699.99,
     category_id: "Microwaves",
-    manufacturer_id: "ABC Appliances",
+    manufacturer_id: "TechHome",
     stock_Available: 8,
     photo: "https://cdn.shopify.com/s/files/1/0581/9547/6573/products/sharpmwdrawerkb6524psybg2.webp?v=1669827848"
   },
@@ -252,7 +252,7 @@ export let products = [
     description: "Compact microwave oven with digital controls and quick-cook functions.",
     price: 89.99,
     category_id: "Microwaves",
-    manufacturer_id: "DEF Appliances",
+    manufacturer_id: "PowerTech Appliances",
     stock_Available: 12,
     photo: "https://i5.walmartimages.com/asr/d21694bb-9d54-4ef7-b7b4-c0266ef8de98.feda21d2b5ee8763cc58b5c4b06d736b.jpeg"
   }
@@ -263,7 +263,7 @@ export let products = [
     description: "2-slice toaster with variable browning settings and removable crumb tray.",
     price: 29.99,
     category_id: "Small Kitchen Appliances",
-    manufacturer_id: "ABC Appliances",
+    manufacturer_id: "TechHome",
     stock_Available: 10,
     photo: "https://cb.scene7.com/is/image/Crate/CuisinartClassicTostrSSF20/$web_pdp_main_carousel_zoom_low$/201029182257/cuisinart-classic-2-slice-toaster.jpg"
   },
@@ -272,7 +272,7 @@ export let products = [
     description: "Electric kettle with rapid boiling function and automatic shut-off.",
     price: 39.99,
     category_id: "Small Kitchen Appliances",
-    manufacturer_id: "DEF Appliances",
+    manufacturer_id: "PowerTech Appliances",
     stock_Available: 5,
     photo: "https://cdn.shopify.com/s/files/1/0277/5610/1732/products/KW-1365_1000x.jpg?v=1671076136"
   },
@@ -281,7 +281,7 @@ export let products = [
     description: "Hand blender with multiple speed settings and detachable blending arm.",
     price: 49.99,
     category_id: "Small Kitchen Appliances",
-    manufacturer_id: "GHI Appliances",
+    manufacturer_id: "Tech Wizards",
     stock_Available: 15,
     photo: "https://m.media-amazon.com/images/I/815s4puX+SL.jpg"
   },
@@ -290,7 +290,7 @@ export let products = [
     description: "Compact food processor with slicing, chopping, and shredding capabilities.",
     price: 89.99,
     category_id: "Small Kitchen Appliances",
-    manufacturer_id: "ABC Appliances",
+    manufacturer_id: "TechHome",
     stock_Available: 8,
     photo: "https://food.fnr.sndimg.com/content/dam/images/food/products/2019/4/24/rx_cuisinart-elemental-13-cup-food-processor.jpeg.rend.hgtvcom.616.616.suffix/1556133605985.jpeg"
   },
@@ -299,7 +299,7 @@ export let products = [
     description: "Electric mixer with multiple speed settings and interchangeable attachments.",
     price: 79.99,
     category_id: "Small Kitchen Appliances",
-    manufacturer_id: "DEF Appliances",
+    manufacturer_id: "PowerTech Appliances",
     stock_Available: 12,
     photo: "https://m.media-amazon.com/images/I/71cbCSNVeDL.jpg"
   }
@@ -310,7 +310,7 @@ export let products = [
     description: "Energy-efficient split air conditioner with cooling and heating capabilities.",
     price: 499.99,
     category_id: "Air Conditioners",
-    manufacturer_id: "ABC Appliances",
+    manufacturer_id: "TechHome",
     stock_Available: 10,
     photo: "https://lirp.cdn-website.com/eb02f697/dms3rep/multi/opt/Package+Unit+and+Split+System+Air+Conditioner-1920w.jpg"
   },
@@ -319,7 +319,7 @@ export let products = [
     description: "Compact window air conditioner with remote control and adjustable cooling settings.",
     price: 349.99,
     category_id: "Air Conditioners",
-    manufacturer_id: "DEF Appliances",
+    manufacturer_id: "PowerTech Appliances",
     stock_Available: 5,
     photo: "https://www.etonline.com/sites/default/files/images/2022-06/air.jpeg"
   },
@@ -328,7 +328,7 @@ export let products = [
     description: "Portable air conditioner with built-in dehumidifier and programmable timer.",
     price: 399.99,
     category_id: "Air Conditioners",
-    manufacturer_id: "GHI Appliances",
+    manufacturer_id: "Tech Wizards",
     stock_Available: 15,
     photo: "https://pyxis.nymag.com/v1/imgs/9b1/310/061d2ff4f179fe626e15ca0f45327d51e7-portable-ac-unit.2x.rsocial.w600.jpg"
   },
@@ -337,7 +337,7 @@ export let products = [
     description: "Ductless mini split air conditioner with multiple air handling units for zone cooling.",
     price: 999.99,
     category_id: "Air Conditioners",
-    manufacturer_id: "ABC Appliances",
+    manufacturer_id: "TechHome",
     stock_Available: 8,
     photo: "https://hvacdirect.com/media/catalog/category/ACIQ_REBRAND_NEW-STICKER_SINGLE_1.jpg"
   },
@@ -346,7 +346,7 @@ export let products = [
     description: "Wi-Fi-enabled air conditioner with smart features and voice control compatibility.",
     price: 599.99,
     category_id: "Air Conditioners",
-    manufacturer_id: "DEF Appliances",
+    manufacturer_id: "PowerTech Appliances",
     stock_Available: 12,
     photo: "https://moeshouse.com/cdn/shop/products/16a-wifi-smart-air-conditioner-companion-ir-wireless-remote-controller-wall-plug-de-eu-version-175066.jpg?v=1615966113&width=1445"
   }
@@ -366,7 +366,7 @@ export let products = [
     description: "Ultra HD 4K TV with HDR technology for stunning picture quality and vibrant colors.",
     price: 999.99,
     category_id: "Televisions",
-    manufacturer_id: "DEF Electronics",
+    manufacturer_id: "DigitalEvo",
     stock_Available: 5,
     photo: "https://tutiendabancor.com.ar/media/catalog/product/cache/9c08c714c8eb7e564db9a133e4630037/t/e/tel7585ssg.jpg"
   },
@@ -375,7 +375,7 @@ export let products = [
     description: "Immersive curved OLED TV with deep black levels and wide viewing angles.",
     price: 1499.99,
     category_id: "Televisions",
-    manufacturer_id: "GHI Electronics",
+    manufacturer_id: "GHI Edge",
     stock_Available: 15,
     photo: "https://www.fravega.com/arquivos/nueva-lg-oled_04.jpg?v=635580472910630000"
   },
@@ -393,7 +393,7 @@ export let products = [
     description: "Weatherproof outdoor TV with high brightness for clear viewing even in sunlight.",
     price: 1999.99,
     category_id: "Televisions",
-    manufacturer_id: "DEF Electronics",
+    manufacturer_id: "DigitalEvo",
     stock_Available: 12,
     photo: "https://manuals.plus/wp-content/uploads/2022/04/SEURA-UB4-85-Full-Sun-Series-85-Inch-4K-Ultra-HD-LED-Outdoor-TV-featured.jpg"
   }
@@ -413,7 +413,7 @@ export let products = [
     description: "Compact bookshelf speakers with powerful sound output and versatile placement options.",
     price: 199.99,
     category_id: "Speakers",
-    manufacturer_id: "DEF Electronics",
+    manufacturer_id: "DigitalEvo",
     stock_Available: 5,
     photo: "https://www.popsci.com/uploads/2021/07/18/Edifer_productcard.jpg?auto=webp"
   },
@@ -422,7 +422,7 @@ export let products = [
     description: "Slim soundbar with virtual surround sound and integrated subwoofer for enhanced audio.",
     price: 249.99,
     category_id: "Speakers",
-    manufacturer_id: "GHI Electronics",
+    manufacturer_id: "GHI Edge",
     stock_Available: 15,
     photo: "https://outtec.com.ar/wp-content/uploads/2022/06/8e9f6a4b57107fb65365aaa1d4fd.jpg"
   },
@@ -440,7 +440,7 @@ export let products = [
     description: "Wireless surround speakers for immersive home theater experience without messy cables.",
     price: 299.99,
     category_id: "Speakers",
-    manufacturer_id: "DEF Electronics",
+    manufacturer_id: "DigitalEvo",
     stock_Available: 12,
     photo: "https://stuffoholics.com/wp-content/uploads/2018/04/wireless-surround-sound.jpg"
   }
@@ -460,7 +460,7 @@ export let products = [
     description: "Wireless keyboard and mouse set with ergonomic design and reliable connectivity.",
     price: 49.99,
     category_id: "Computers",
-    manufacturer_id: "DEF Electronics",
+    manufacturer_id: "DigitalEvo",
     stock_Available: 5,
     photo: "https://m.media-amazon.com/images/I/71FxRn-grSL.jpg"
   },
@@ -469,7 +469,7 @@ export let products = [
     description: "Portable external hard drive with large storage capacity and fast data transfer.",
     price: 89.99,
     category_id: "Computers",
-    manufacturer_id: "GHI Electronics",
+    manufacturer_id: "GHI Edge",
     stock_Available: 15,
     photo: "https://m.economictimes.com/thumb/msid-92980317,width-1500,height-993,resizemode-4,imgsize-41322/external-hard-drive.jpg"
   },
@@ -487,7 +487,7 @@ export let products = [
     description: "Wireless Bluetooth headset with noise-canceling technology and long battery life.",
     price: 129.99,
     category_id: "Computers",
-    manufacturer_id: "DEF Electronics",
+    manufacturer_id: "DigitalEvo",
     stock_Available: 12,
     photo: "https://importessv.com/wp-content/uploads/2021/01/Imagenes-de-art.-3-1.png"
   }
@@ -498,7 +498,7 @@ export let products = [
     description: "Comfortable sofa with stylish design and plush cushions.",
     price: 899.99,
     category_id: "Furniture",
-    manufacturer_id: "ABC Furniture",
+    manufacturer_id: "UrbanLiving",
     stock_Available: 10,
     photo: "https://images.hola.com/imagenes/decoracion/20210618191638/elegir-color-sofa-decoracion-salones-il/0-965-545/como-elegir-el-color-del-sofa-10a-a.jpg"
   },
@@ -507,7 +507,7 @@ export let products = [
     description: "Elegant dining table set with chairs for family meals and gatherings.",
     price: 599.99,
     category_id: "Furniture",
-    manufacturer_id: "DEF Furniture",
+    manufacturer_id: "DesignMakers",
     stock_Available: 5,
     photo: "https://s3.amazonaws.com/sierraimages/Images/Product/Large/10301.jpg"
   },
@@ -516,7 +516,7 @@ export let products = [
     description: "Sturdy bed frame with headboard and footboard for a comfortable sleep experience.",
     price: 499.99,
     category_id: "Furniture",
-    manufacturer_id: "GHI Furniture",
+    manufacturer_id: "StyleCraft",
     stock_Available: 15,
     photo: "https://www.ikea.com/us/en/images/products/hemnes-bed-frame-black-brown-luroey__1101517_pe866696_s5.jpg"
   },
@@ -525,7 +525,7 @@ export let products = [
     description: "Modern TV stand with ample storage space for media devices and accessories.",
     price: 299.99,
     category_id: "Furniture",
-    manufacturer_id: "ABC Furniture",
+    manufacturer_id: "UrbanLiving",
     stock_Available: 8,
     photo: "https://images.thdstatic.com/productImages/9441fd93-ab7a-4269-a369-fdd26ece8739/svn/black-j-e-home-tv-stands-gd-w67933435-64_600.jpg"
   },
@@ -534,7 +534,7 @@ export let products = [
     description: "Spacious office desk with drawers and shelves for an organized workspace.",
     price: 399.99,
     category_id: "Furniture",
-    manufacturer_id: "DEF Furniture",
+    manufacturer_id: "DesignMakers",
     stock_Available: 12,
     photo: "https://cdn.shopify.com/s/files/1/1557/9661/products/MF-22MKD163LeftRet-1000_1024x1024.jpg?v=1674529783"
   }
@@ -544,7 +544,7 @@ export let products = [
     description: "Stylish bookshelf with multiple shelves for organizing and displaying books and decor.",
     price: 249.99,
     category_id: "Furniture",
-    manufacturer_id: "GHI Furniture",
+    manufacturer_id: "StyleCraft",
     stock_Available: 10,
     photo: "https://www.whalenfurniture.com/wp-content/uploads/2021/01/00764053525032_SWAV1-scaled-1.jpg"
   },
@@ -553,7 +553,7 @@ export let products = [
     description: "Functional chest of drawers with spacious storage compartments for clothing and accessories.",
     price: 349.99,
     category_id: "Furniture",
-    manufacturer_id: "ABC Furniture",
+    manufacturer_id: "UrbanLiving",
     stock_Available: 5,
     photo: "https://cdn.shopify.com/s/files/1/2268/9819/products/Stevie_3_4_Chest_White_Main_S1_1500x.jpg?v=1613571750"
   },
@@ -562,7 +562,7 @@ export let products = [
     description: "Modern coffee table with a sleek design and a convenient lower shelf for storage.",
     price: 179.99,
     category_id: "Furniture",
-    manufacturer_id: "DEF Furniture",
+    manufacturer_id: "DesignMakers",
     stock_Available: 15,
     photo: "https://images.woodenstreet.de/image/data/coffee-tables-mdf/escobar-coffee-table/exotic-teak/updated%20new/1.jpg"
   },
@@ -571,7 +571,7 @@ export let products = [
     description: "Comfortable accent chair with an eye-catching design, perfect for adding style to any room.",
     price: 299.99,
     category_id: "Furniture",
-    manufacturer_id: "GHI Furniture",
+    manufacturer_id: "StyleCraft",
     stock_Available: 8,
     photo: "https://ak1.ostkcdn.com/images/products/is/images/direct/b476e2cc5a64b42b4bc9a5f8727659b583a125b9/Levine-Accent-Chair.jpg"
   },
@@ -580,7 +580,7 @@ export let products = [
     description: "Spacious wardrobe closet with hanging rods and shelves for organizing clothing and accessories.",
     price: 599.99,
     category_id: "Furniture",
-    manufacturer_id: "ABC Furniture",
+    manufacturer_id: "UrbanLiving",
     stock_Available: 12,
     photo: "https://m.media-amazon.com/images/I/71zAaIM-zcL.jpg"
   }  
