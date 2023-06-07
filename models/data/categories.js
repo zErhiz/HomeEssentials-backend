@@ -18,7 +18,7 @@ export let categories = [
     color: "#7986CB", //azul
     hover: "#0b0029",
     description: "Automate your home with our smart devices and make your life more comfortable.",
-    coverPhoto: "ruta-a-imagen-home-automation.jpg"
+    coverPhoto: "https://www.trakaid.com/wp-content/uploads/2020/04/how-iot-devices-are-making-home-automation-and-connected-living-a-reality-in-2020.webp"
     },
     {
     name: "Kitchen Appliances",
@@ -81,13 +81,13 @@ export let categories = [
     color: "#A1887F", //marron
     hover: "#030029",
     description: "Enhance your listening experience with our speakers and sound systems.",
-    coverPhoto: "https://c1.wallpaperflare.com/preview/848/1008/908/speakers-box-hifi-surround-boxes.jpg"
+    coverPhoto: "https://static.wixstatic.com/media/cdac96_4f2bc7f56039420f96d7ab611dc72441~mv2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/cdac96_4f2bc7f56039420f96d7ab611dc72441~mv2.jpg"
     },
     {
     name: "Computers",
     color: "#CCCC66", //gold
     hover: "#000829",
     description: "Enhance your listening experience with our speakers and sound systems.",
-    coverPhoto: "https://c1.wallpaperflare.com/preview/848/1008/908/speakers-box-hifi-surround-boxes.jpg"
+    coverPhoto: "https://cosmosgroup.sgp1.cdn.digitaloceanspaces.com/news/4227725_high-gaming-pc-buyer-guide.jpg"
     }
 ]
