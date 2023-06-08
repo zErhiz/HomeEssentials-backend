@@ -4,6 +4,7 @@ import curriculumsRouter from './curriculums.js'
 import categoryRouter from './categories.js'
 import manufacturerRouter from './manufacturer.js'
 import productRouter from './product.js'
+
 import userRouter from './user.js'
 import favoritesRouter from './favorites.js'
 import carritoRouter from './cart.js'
@@ -27,5 +28,9 @@ router.use('/products', productRouter)
 router.use('/users', userRouter)
 router.use('/curriculums', curriculumsRouter)
 router.use('/favorites', favoritesRouter)
+
+
+
 router.use('/cart', carritoRouter)
+
 export default router;
