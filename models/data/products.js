@@ -87,7 +87,7 @@ export let products = [
     category_id: "Home Automation",
     manufacturer_id: "Techno Rize",
     stock_Available: 5,
-    photo: "https://ezewarm.com/wp-content/uploads/2020/12/Pro-Wifi-Thermostat-with-App-Control.jpg"
+    photo: "https://www.moneysavingexpert.com/content/dam/hero-utilities-thermostat.jpg"
   },
   {
     name: "Smart Lighting System",
