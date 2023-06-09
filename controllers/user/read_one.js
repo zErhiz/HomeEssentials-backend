@@ -1,14 +1,14 @@
 import User from '../../models/User.js'
 
-let get_id = async(req,res,next) => {
+let read_one = async(req,res,next) => {
     try {
         console.log("res", res)
-        let id = await User.findOne({
-            email: req.params.email}, "_id")
-            if(id){
+        let user = await User.findOne({
+            email: req.params.email})
+            if(user){
                 return res.status(200).json({
                     success: true,
-                    response: id
+                    response: user
                 })
             }
             return res.status(404).json({
@@ -22,4 +22,4 @@ let get_id = async(req,res,next) => {
     }
 }
 
-export default get_id
+export default read_one
