@@ -31,9 +31,6 @@ const removeFromCart = async (req, res) => {
       cart.items.splice(itemIndex, 1);
     }
 
-    product.stock_Available += parseInt(quantity); // Increment product stock by the specified quantity
-    await product.save();
-
     await cart.save();
 
     if (cart.items.length === 0) {
