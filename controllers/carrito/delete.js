@@ -8,7 +8,7 @@ const removeFromCart = async (req, res) => {
     const cart = await Cart.findOne({ user: userId });
 
     if (!cart) {
-      return res.status(404).json({ message: 'The cart doesn\'t exist' });
+      return res.status(404).json({ message: 'The cart doesnt exist' });
     }
 
     const itemIndex = cart.items.findIndex(item => item.product_id && item.product_id.equals(productId));
@@ -19,7 +19,7 @@ const removeFromCart = async (req, res) => {
 
     const product = await Product.findById(productId);
     if (!product) {
-      return res.status(404).json({ message: 'The product doesn\'t exist' });
+      return res.status(404).json({ message: 'The product doesnt exist' });
     }
 
     const productQuantity = product.quantity;
@@ -34,7 +34,7 @@ const removeFromCart = async (req, res) => {
     await cart.save();
 
     if (cart.items.length === 0) {
-      // Remove cart if there are no items left
+      // removemos los items
       await cart.remove();
     }
 

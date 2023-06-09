@@ -13,14 +13,14 @@ const confirmPurchase = async (req, res) => {
 
     const items = cart.items;
 
-    // Loop through each item in the cart
+    // recorremos los items de lcarrito
     for (const item of items) {
       const product = await Product.findById(item.product_id);
       if (!product) {
-        return res.status(404).json({ message: 'The product doesn\'t exist' });
+        return res.status(404).json({ message: 'The product doesnt exist' });
       }
 
-      // Check if the product has enough stock available
+      // Ccheckeamos siu ahi productos
       if (product.stock_Available < item.quantity) {
         return res.status(400).json({ message: 'There is not enough stock for the product' });
       }
