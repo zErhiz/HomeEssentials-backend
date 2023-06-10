@@ -8,7 +8,7 @@ const viewCart = async (req, res) => {
     let user = await User.findOne({ email: userEmail});
     const carts = await Cart.find({ user: user._id });
     console.log(carts);
-    if (carts.length > 0) {
+    if (carts) {
         res.status(200).json({
           success: true,
           response: carts

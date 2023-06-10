@@ -27,7 +27,6 @@ router.use('/products', productRouter)
 router.use('/users', userRouter)
 router.use('/curriculums', curriculumsRouter)
 router.use('/favorites', favoritesRouter)
-router.use('/favorites', favoritesRouter)
 router.use('/cart', carritoRouter)
 
 export default router;
