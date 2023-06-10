@@ -1,4 +1,4 @@
-import Cart from '../../models/cart.js';
+/* import Cart from '../../models/cart.js';
 import Product from '../../models/Product.js';
 
 const confirmPurchase = async (req, res) => {
@@ -41,4 +41,4 @@ const confirmPurchase = async (req, res) => {
   }
 };
 
-export default confirmPurchase;
+export default confirmPurchase; */
