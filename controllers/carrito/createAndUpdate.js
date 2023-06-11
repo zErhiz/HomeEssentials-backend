@@ -64,9 +64,14 @@ const addAndUpdateToCart = async (req, res) => {
                         quantity: 1
                       }
         let one = await Cart.create(data)
+        one = await one.populate("product_id")
+        const oneFilter = {
+          product_id: one.product_id,
+          quantity: one.quantity
+        }
         if(one){  
             return res.status(201).json({
-              id: one._id,
+              one: oneFilter,
               message: ["Product added to cart successfully"],
               timestamps: one.createdAt
             })
@@ -85,8 +90,8 @@ const addAndUpdateToCart = async (req, res) => {
           let update = await Cart.findByIdAndUpdate(
                                     cart._id,
                                     data,
-                                    {new: true}
-                                  ).populate("product_id")
+                                    {new: true},
+                                  ).populate("product_id").select("-_id product_id quantity")
             if (update){
                 return res.status(200).json({
                     success: true,
