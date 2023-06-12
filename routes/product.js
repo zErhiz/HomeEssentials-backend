@@ -10,6 +10,7 @@ import getProductsByCategory from '../controllers/products/getproductsbycategory
 
 let router = Router()
 
+
 router.get('/', read);
 router.get('/sixcards', productsPaginationHome)
 router.get('/search',searchProducts)
