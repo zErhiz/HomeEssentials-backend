@@ -1,44 +1,38 @@
-/* import Cart from '../../models/cart.js';
+import Cart from '../../models/cart.js';
 import Product from '../../models/Product.js';
+import User from '../../models/User.js';
 
 const confirmPurchase = async (req, res) => {
   try {
-    const { userId } = req.body;
-
-    const cart = await Cart.findOne({ user: userId });
+    const { userEmail } = req.query;
+    let user = await User.findOne({ email: userEmail});
+    const cart = await Cart.find({ user: user._id });
 
     if (!cart) {
       return res.status(404).json({ message: 'The cart doesn\'t exist' });
     }
 
-    const items = cart.items;
-
     // recorremos los items de lcarrito
-    for (const item of items) {
-      const product = await Product.findById(item.product_id);
-      if (!product) {
-        return res.status(404).json({ message: 'The product doesnt exist' });
+    for (const item of cart) {
+      const product = await Product.findOne({_id: item.product_id});
+      if(product){
+        console.log("product" , product);
+        const update = await Product.findByIdAndUpdate(
+                                          product._id,
+                                          {stock_Available: product.stock_Available - 1},
+                                          {new: true},)
+        if (update){console.log(`${product.name} updated`)}
+        await Cart.findOneAndDelete({user: user._id})
       }
-
-      // Ccheckeamos siu ahi productos
-      if (product.stock_Available < item.quantity) {
-        return res.status(400).json({ message: 'There is not enough stock for the product' });
-      }
-
-      // Subtract the quantity from the product stock
-      product.stock_Available -= item.quantity;
-      await product.save();
     }
-
-    // Clear the cart after confirming the purchase
-    cart.items = [];
-    await cart.save();
-
-    res.json({ message: 'Purchase confirmed' });
+    return res.status(200).json({
+        success: true,
+        message: ["Congratulations, successful purchase"]
+    })
   } catch (error) {
     console.log(error);
     res.status(500).json({ message: 'An error has occurred' });
   }
 };
 
-export default confirmPurchase; */
+export default confirmPurchase;
