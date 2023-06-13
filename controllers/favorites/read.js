@@ -1,11 +1,13 @@
 import Favorites from '../../models/Favorites.js'
+import User from '../../models/User.js';
 
 let read = async (req, res, next) => {
     try {
-        console.log(req.query.id);
-        let id = req.query.id
+        const { userEmail } = req.params; 
+        let user = await User.findOneAndUpdate({ email: userEmail});
+        console.log(user);
         let read = await Favorites.find({
-            user_id: id
+            user_id: user._id
         }).populate("product_id")
         return res.status(200).json({
             success: 'ok',
