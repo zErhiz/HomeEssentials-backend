@@ -4,6 +4,7 @@ import read from '../controllers/carrito/read.js';
 import subtractAndDeleteCart from '../controllers/carrito/subtractAndDelete.js'
 import deleteOne from '../controllers/carrito/deleteOne.js'
 import confirmPurchase from '../controllers/carrito/confirmcart.js';
+
 let router = Router()
 
 router.post('/create', create); // Agregar un producto al carrito
