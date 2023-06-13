@@ -7,6 +7,7 @@ import productRouter from './product.js'
 import userRouter from './user.js'
 import favoritesRouter from './favorites.js'
 import carritoRouter from './cart.js'
+import orderRouter from './orders.js'
 import adminRouter from './admin.js'
 //const express = require('express');
 const router = express.Router();
@@ -30,5 +31,6 @@ router.use('/curriculums', curriculumsRouter)
 router.use('/favorites', favoritesRouter)
 router.use('/cart', carritoRouter)
 router.use('/admin', adminRouter)
+router.use('/order',orderRouter)
 
 export default router;
