@@ -8,6 +8,7 @@ import userRouter from './user.js'
 import favoritesRouter from './favorites.js'
 import carritoRouter from './cart.js'
 import adminRouter from './admin.js'
+import paymentRouter from '../controllers/payment/payment.js';
 //const express = require('express');
 const router = express.Router();
 
@@ -30,5 +31,6 @@ router.use('/curriculums', curriculumsRouter)
 router.use('/favorites', favoritesRouter)
 router.use('/cart', carritoRouter)
 router.use('/admin', adminRouter)
+router.use("/payment", paymentRouter)
 
 export default router;

@@ -30,6 +30,7 @@
     "nodemailer": "^6.9.3",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.1",
+    "stripe": "^12.9.0",
     "supertest": "^6.3.3"
   },
   "devDependencies": {
