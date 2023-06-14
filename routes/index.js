@@ -10,6 +10,7 @@ import carritoRouter from './cart.js'
 import orderRouter from './orders.js'
 import adminRouter from './admin.js'
 import paymentRouter from '../controllers/payment/payment.js';
+import contactRouter from './contact.js'
 //const express = require('express');
 const router = express.Router();
 
@@ -32,10 +33,10 @@ router.use('/curriculums', curriculumsRouter)
 router.use('/favorites', favoritesRouter)
 router.use('/cart', carritoRouter)
 router.use('/admin', adminRouter)
-
 router.use("/payment", paymentRouter)
 
 router.use('/order',orderRouter)
 
+router.use('/contact',contactRouter)
 
 export default router;
