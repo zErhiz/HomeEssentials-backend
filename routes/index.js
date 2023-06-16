@@ -22,8 +22,6 @@ router.get('/', function(req, res, next) {
   });
 });
 
-
-
 router.use('/auth', authRouter)
 router.use('/categories', categoryRouter)
 router.use('/manufacturers', manufacturerRouter)
@@ -34,7 +32,6 @@ router.use('/favorites', favoritesRouter)
 router.use('/cart', carritoRouter)
 router.use('/admin', adminRouter)
 router.use("/payment", paymentRouter)
-
 router.use('/order',orderRouter)
 
 router.use('/contact',contactRouter)
