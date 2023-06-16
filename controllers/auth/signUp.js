@@ -3,7 +3,6 @@ import bcryptjs from 'bcryptjs'
 import User from "../../models/User.js";
 import createEmailTransporter from '../../config/nodemailer.js';
 
-
 let create = async(req, res, next) => {
     //console.log(req.file);
  
