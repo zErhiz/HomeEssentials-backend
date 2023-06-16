@@ -8,6 +8,7 @@ import logger from 'morgan';
 import cors from 'cors'
 import {__dirname} from './utils.js'
 
+
 import indexRouter from './routes/index.js';
 import notFound from './middlewares/notFound.js'
 import errorHandler from './middlewares/errorHandler.js'
