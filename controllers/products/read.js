@@ -2,18 +2,19 @@ import Products from "../../models/Product.js"
 let read = async(req, res, next) => {
     let queries = {}
     let sort = {}
-    console.log("req.query", req.query)
-    if (req.query.manufacturerCheked) {
-        queries.category_id = req.query.category_id.split(',')
-    }
-    if (req.query.categoriesCheked) {
+    if (req.query.manufacturer_id) {
         queries.manufacturer_id = req.query.manufacturer_id.split(',')
     }
-    if (req.query.sort) {
-        sort.price = req.query.price
+    if (req.query.category_id) {
+        queries.category_id = req.query.category_id.split(',')
     }
+    if (req.query.order) {
+        sort.price = req.query.order
+    }
+    console.log(sort);
     try{
-        let all = await Products.find(queries)
+        console.log("queries", queries);
+        let all = await Products.find(queries).sort(sort)
         return res.status(200)
         .json({
                 products: all
@@ -22,4 +23,4 @@ let read = async(req, res, next) => {
             console.log(error)
             return res.status(400).json({error: "a ocurrido un problema"})
 }
-  export default read
+export default read
