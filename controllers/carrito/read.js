@@ -6,8 +6,8 @@ const viewCart = async (req, res) => {
   try {
     const { userEmail } = req.params; 
     let user = await User.findOne({ email: userEmail});
-    const carts = await Cart.find({ user: user?._id },"-_id product_id quantity").populate("product_id");
-    console.log(carts);
+    const carts = await Cart.find({ user: user._id },"-_id product_id quantity").populate("product_id");
+    //console.log(carts);
     if (carts) {
         res.status(200).json({
           success: true,
