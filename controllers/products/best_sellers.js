@@ -2,7 +2,7 @@ import Product from "../../models/Product.js";
 
 const read = async (req, res, next) => {
   try {
-    const pageSize = 6; // Número de productos por página
+    const pageSize = 5; // Número de productos por página
     const page = req.query.page || 1; // Página actual (por defecto: página 1)
     const skip = (page - 1) * pageSize; // Cálculo de los productos a omitir
     const sortBy = "stock_Available"; // Campo por el que se ordenarán los productos
