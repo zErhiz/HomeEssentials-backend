@@ -5,7 +5,7 @@ import createEmailTransporter from '../../config/nodemailer.js';
 
 
 let create = async(req, res, next) => {
-    console.log(req.file);
+    //console.log(req.file);
  
     req.body.role = 0;
     req.body.is_online = false;

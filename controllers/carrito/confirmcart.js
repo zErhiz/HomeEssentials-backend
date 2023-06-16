@@ -5,7 +5,7 @@ import Order from '../../models/orders.js'
 const confirmPurchase = async (req, res) => {
   try {
     const { userEmail } = req.query;
-    console.log(req.body);
+    //console.log(req.body);
     let user = await User.findOne({ email: userEmail});
     const cart = await Cart.find({ user: user._id });
 
